@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curry Point</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Curry Point</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu"><strong><a href="https://www.sanjeevkapoor.com/Recipe/Chicken-Curry-Khazana-of-Indian-Recipes.html#google_vignette">Menu</a></strong></li>
+                <li><a href="#order">Order Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Delicious Homemade Curries Delivered to Your Door!</h2>
+        <a href="#menu" class="btn">View Menu</a>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="chikken-curry.jpg" alt="Chicken Curry">
+                <h3><em>Chicken-curry</em> - ₹250</h3>
+                <button class="order-btn" data-item="Chicken Curry" data-price="250">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="Paneer-Butter-Masala-Old-Featured.jpg" alt="Paneer Butter Masala">
+                <h3><strong>Paneer Butter Masala</strong>- ₹200</h3>
+                <button class="order-btn" data-item="Paneer Butter Masala" data-price="200">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="sambar-1.png" alt=" Sambar Butter Masala">
+                <h3>Sambar - ₹40</h3>
+                <button class="order-btn" data-item="Paneer Butter Masala" data-price="200">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="maxresdefault.jpg" alt="Cauliflower Fry">
+                <h3>cauliflower Fry - ₹40</h3>
+                <button class="order-btn" data-item="Cauliflower Fry" data-price="200">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="gutti-vankaya-masala-kura-768x511.webp" alt="Gutti Vankaya Curry ">
+                <h3>Gutti Vankaya Curry  - ₹40</h3>
+                <button class="order-btn" data-item="Gutti Vankaya Curry " data-price="200">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="order">
+        <h2>Order Now</h2>
+        <form id="orderForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <input type="text" id="address" placeholder="Delivery Address" required>
+            <label for="payment">Choose Payment Method:</label>
+            <select id="payment" required>
+                <option value="cod">Cash on Delivery</option>
+                <option value="phonepe">PhonePe / Google Pay</option>
+            </select>
+            <button type="submit">Place Order</button>
+        </form>
+        <div id="orderMessage"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-item">
+            📍 <strong>Address:</strong> 123, Main Street kunkudumelli, Chagallu,India
+        </div>
+        <div class="contact-item">
+            📞 <strong>Phone:</strong><a href="tel:">+917893457251</a>
+        </div>
+        <div class="contact-item">
+            📧 <strong>Email:</strong><a href="mailto:info@example.com">Rakeshchowdary23@gmail.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Curry Point. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
